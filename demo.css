@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bank Gothic Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bank Gothic Light'), url('ufonts.com_bank-gothic-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bank Gothic Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bank Gothic Medium'), url('ufonts.com_bank-gothic-medium.woff') format('woff');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.display_logo{
+    margin: 0 auto;
+    text-align: center;
+}
+.display_logo {
+    width: 35%;
+    height: 500px;
+    background-image: url('assets/logo1.png');
+
+}
+.display_logo:hover{
+    background-image: url('assets/logo1.gif');
+}
+.display_head{
+    text-align: center;
+}
+.display_head h1{
+    font-family: 'Bank Gothic Medium';
+    font-size: 5em;
+}
